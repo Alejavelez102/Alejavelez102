@@ -1,13 +1,38 @@
-.contedor{
+#contedor{
     display: flex;
+    justify-content: center;
     font-family: 'Times New Roman';
 }
 
-.imagen{
-    width: 350px;
+#img-motor1{
+    max-width: 50%;
+    height: auto;
+    margin: 52px;
+    padding: 5px;
+    display: block;
+    margin:0cap;    
+}
+#img-motor2{
+    max-width: 50%;
+    height: auto;
+    margin: 52px;
+    padding: 5px;
+    display: block;
+    margin:0cap;    
+}
+#img-motor4{
+    max-width: 100%;
+    height: auto;
+    margin: 52px;
+    padding: 5px;
+    display: block;
+    margin:0cap;    
 }
 
-.par1{
-    width: auto;
-    height: auto;
+#slider{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll
+  
 }
