@@ -44,7 +44,16 @@
 
 }
 #btn-back{
-    position: relative;
+    display: block;
+    width: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+    border-radius: 10px;
+    
+}
+#a:hover{background-color: transparent;
+    border: 2px solid #a5a5a5;
+    color: antiquewhite;
 
 }
 #map{
