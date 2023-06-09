@@ -1,0 +1,13 @@
+.contedor{
+    display: flex;
+    font-family: 'Times New Roman';
+}
+
+.imagen{
+    width: 350px;
+}
+
+.par1{
+    width: auto;
+    height: auto;
+}
