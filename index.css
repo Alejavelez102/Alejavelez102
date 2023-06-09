@@ -36,3 +36,14 @@
     overflow-x: scroll
   
 }
+
+#mot-alt{
+
+    display: grid;
+    font-style: oblique;
+
+}
+#btn-back{
+    position: relative;
+
+}
