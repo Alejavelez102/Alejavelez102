@@ -1,0 +1,25 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+#title {
+    position: unset;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    padding: 10px;
+    background-color: black;
+    text-decoration: double;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover{
+    background-color: beige;
+
+}
