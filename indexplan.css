@@ -12,7 +12,7 @@
     vertical-align: baseline;
 }
 
-body{
+body .l2{
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -29,25 +29,25 @@ body{
     z-index: 100%;
 }
 
-.navbar{
+.navbar2{
     display: flex;
     margin-right: 10px;
 
 }
 
-.logo{
+.logo2{
     margin-left: 30px;
 }
 
 
-.logo a{
+.logo2 a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
 }
 
-.navbar a{
+.navbar2 a{
     display: block;
     padding: 23px 20px;
     color: #8e92ca;
@@ -56,20 +56,20 @@ body{
     font-size: 20px;
 }
 
-.navbar a:hover {
+.navbar2 a:hover {
     background: #fff;
 
 
 
 }
 
-.header{
+.header2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header{
+.header2 {
     
     background: url(images/ciel.jpg )no-repeat center;
    
@@ -80,10 +80,10 @@ body{
     align-items: center;
 }
 
-.logo{
+.logo2 {
     color: #F08BD6;
 }
-.title{
+.title2 {
     color: #8BAEF0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 40px;
@@ -93,28 +93,28 @@ body{
     text-transform: uppercase;
 }
 
-.planets{
+.planets2 {
     text-align: center;
     font-family: 'times new roman';
     color: #9c27b0;
 }
 
 
-.title2{
+.title2 {
     font-style: oblique;
     color: #0000f0;
 }
 
 
 
-p{
+.p2 {
     margin-bottom: 40px;
     font-size: 18px;
     color: #fff;
     padding: 0 100px;
 }
 
-btn{
+.btn2 {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
@@ -124,11 +124,11 @@ btn{
     background: #9c27b0;
 }
 
-.btn:hover {
+.btn2:hover {
     background: #9c27b0;
 }
 
-.content{
+.content2 {
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -136,20 +136,20 @@ btn{
     align-items: center;
 }
 
-.sau{
+.sau2 {
     padding: 60px;
     background: #0000f0;
 }
 
 
-.box-container{
+.box-container2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
 }
 
-.box-container .box{
+.box-container2 .box2{
     height: 11rem;
     width: 17rem;
     background: #050608;
@@ -159,7 +159,7 @@ btn{
     margin: 2rem;
 }
 
-.box-container .box i{
+.box-container2 .box2 i{
     height: 3rem;
     width: 3rem;
     line-height: 3rem;
@@ -171,50 +171,50 @@ btn{
     margin: 1rem 0;
 }
 
-.box-container .box h3 {
+.box-container .box2 h3 {
     font-size: 20px;
     color: #9c27b0;
 }
 
-.box-container .box p{
+.box-container .box2 p{
     padding: 0 15px;
     font-size: 16px
 }
 
-.img{
+.img2{
     width: max-content;
     height: 20%;
 
 }
 
-.about{
+.about2{
     background: #4b5d7a;
 }
 
-.price{
-    background: url(images/aguj.jpg);
+.price2{
+    background-color: #d6f3f8;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
 }
 
-.contact{
+.contact2{
     padding-top: 20px;
     background: #171717;
     padding-bottom: 0;
 }
 
 @media (max-width: 768px) {
-    .title{
+    .title2{
         margin-bottom: 0;
         font-size: 40px;
     }
 
-    .saw {
+    .saw2 {
         height: 12s0hv;
     }
     
-    .navbar {
+    .navbar2 {
 
         display: inline;
     }
