@@ -42,7 +42,7 @@ body{
 
 .logo a{
     text-decoration: none;
-    color: #fff;
+    color: #4b5d7a;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -59,9 +59,8 @@ body{
 .navbar a:hover {
     background: #fff;
 
-
-
 }
+
 
 .header{
     display: flex;
@@ -71,7 +70,7 @@ body{
 
 .header{
     
-    background: url(images/ciel.jpg )no-repeat center;
+    background: url(images/boreal.jpg )no-repeat center;
    
    background-position: center bottom;
     background-size: cover;
@@ -114,7 +113,7 @@ p{
     padding: 0 100px;
 }
 
-btn{
+.btn{
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
@@ -143,6 +142,7 @@ btn{
 
 
 .box-container{
+    background-color: #8BAEF0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -204,24 +204,31 @@ btn{
     padding-bottom: 0;
 }
 
-@media (max-width: 768px) {
-    .title{
-        margin-bottom: 0;
-        font-size: 40px;
-    }
 
-    .saw {
-        height: 12s0hv;
-    }
-    
-    .navbar {
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 0 lightblue, 0 6px 0 #171717;
+    float: left;
+    width: 35px;
 
-        display: inline;
-    }
-    
 }
 
-.content-box{
-    background-color: #8e92ca;
+div.galeria img{
+
+    width: 100%;
+    height: auto;
 }
+
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform:  rorate(-3deg);
+}
+
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+
 

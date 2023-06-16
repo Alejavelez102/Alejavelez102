@@ -12,13 +12,7 @@
     vertical-align: baseline;
 }
 
-body .l2{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.head{
+.head2{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,25 +28,16 @@ body .l2{
     margin-right: 10px;
 
 }
-
 .logo2{
-    margin-left: 30px;
+    color: #d6f3f8;
 }
 
-
-.logo2 a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-}
 
 .navbar2 a{
     display: block;
     padding: 23px 20px;
     color: #8e92ca;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 20px;
 }
 
@@ -69,10 +54,51 @@ body .l2{
     align-items: center;
 }
 
+.planets{
+    font-family: verdana;
+    font-size: larger;
+    color: #fff;
+}
+
+.contenedor{
+display: grid;
+grid-template-columns: 1fr  1fr;
+
+}
+
+.one-section{
+    padding: 0cap;
+    background: url(images/ciel.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+
+
+}
+
+.one-section2{
+    background: url(images/asteroids.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.one-section3{
+    background: url(images/constelaciones2.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
 .header2 {
     
-    background: url(images/ciel.jpg )no-repeat center;
-   
+    background: url(images/boreal.jpg )no-repeat center;
    background-position: center bottom;
     background-size: cover;
     min-height: 70vh;
@@ -80,9 +106,7 @@ body .l2{
     align-items: center;
 }
 
-.logo2 {
-    color: #F08BD6;
-}
+
 .title2 {
     color: #8BAEF0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -93,11 +117,6 @@ body .l2{
     text-transform: uppercase;
 }
 
-.planets2 {
-    text-align: center;
-    font-family: 'times new roman';
-    color: #9c27b0;
-}
 
 
 .title2 {
@@ -106,13 +125,6 @@ body .l2{
 }
 
 
-
-.p2 {
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #fff;
-    padding: 0 100px;
-}
 
 .btn2 {
     display: inline-block;
@@ -134,11 +146,6 @@ body .l2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.sau2 {
-    padding: 60px;
-    background: #0000f0;
 }
 
 
@@ -170,10 +177,42 @@ body .l2{
     font-size: 2rem;
     margin: 1rem 0;
 }
+/**desde aqui carru */
+h1{
+    color: #fff;
+    text-shadow: 1px 2px 2px  black, 0 0 5px blue;
+    text-align: center;
 
-.box-container .box2 h3 {
-    font-size: 20px;
-    color: #9c27b0;
+    /* shadow genera sombra*/
+}
+
+div.galeria{
+     margin: 10px 20px;
+     box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
+     width: 350px;
+}
+
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+
+}
+
+.img-stars{
+    width: 100px;
+}
+
+div.galeria:hover{
+    border: 1px, solid lightcoral;
+    transform: rotate(-3deg);
+
+    /*transform hace que la imagn mueva */
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px  2px 5px purple;
+    padding: 10px;
 }
 
 .box-container .box2 p{
@@ -181,15 +220,7 @@ body .l2{
     font-size: 16px
 }
 
-.img2{
-    width: max-content;
-    height: 20%;
 
-}
-
-.about2{
-    background: #4b5d7a;
-}
 
 .price2{
     background-color: #d6f3f8;
@@ -210,10 +241,6 @@ body .l2{
         font-size: 40px;
     }
 
-    .saw2 {
-        height: 12s0hv;
-    }
-    
     .navbar2 {
 
         display: inline;
@@ -221,7 +248,90 @@ body .l2{
     
 }
 
-.content-box{
+
+.planetas1{
     background-color: #8e92ca;
 }
 
+.text-history{
+    background-color:  #F7E4F7;
+    margin-top: 5%;
+   
+    
+}
+
+.know{
+    color: #EBE78E;
+    font-size: larger;
+}
+
+.curios{
+    background-color: #d6f3f8;
+}
+
+
+.carrusel{
+   
+   display: flex;
+   flex-wrap: nowrap;
+   overflow: scroll;
+
+
+}
+
+
+.element{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: #F0D0F7;
+    width: 50px;
+    height: 200px;
+}
+
+
+.clasif{
+    background-color: #0000f0;
+    color: #d6f3f8;
+
+}
+
+.comp{
+    color: #EBE78E;
+}
+
+.curiosidades{
+    text-align: center;
+}
+
+.clasif-planets{
+    background-color: #8BAEF0;
+}
+
+.curiosidades{
+    background-color: #F7E4F7;
+}
+
+.parr {
+    background-color: #8BAEF0;
+    padding: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #9837ad;
+   
+}
+
+.titulo{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagenes{
+    display: flex;
+    object-fit: cover;
+}
+.imagenes .img{
+    justify-content: center;
+    display: flex;
+    object-fit: cover;
+}
